@@ -29,7 +29,7 @@ Download the file via curl:
     wget -q https://raw.githubusercontent.com/DanielCarmingham/shell-helpers/main/includes/colors.sh
 ```
 
-Then import the file:
+Then import the file by adding this line to your shell script:
 
 ```bash
     source colors.sh
