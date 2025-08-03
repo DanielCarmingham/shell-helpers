@@ -1,6 +1,10 @@
-# ----------------------------------
-# Colors
-# ----------------------------------
+#!/bin/bash
+
+# colors.sh - A shell script to define color variables for terminal output.
+
+# This script exports color variables that can be used in other shell scripts
+# to format text output with colors.
+
 export NOCOLOR='\033[0m'
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
@@ -17,5 +21,3 @@ export LIGHTBLUE='\033[1;34m'
 export LIGHTPURPLE='\033[1;35m'
 export LIGHTCYAN='\033[1;36m'
 export WHITE='\033[1;37m'
-# ----------------------------------
-
