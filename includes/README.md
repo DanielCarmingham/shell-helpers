@@ -1,10 +1,19 @@
-# How to use these include files
+# About these files
 
-These files are designed to be included into a shell script.
+These files include various helpers for use in shell scripts.
 
 |script|description|
 |-|-|
 |`colors.sh`|Variables for using colors in shell scripts i.e., $RED, $LIGHTRED, $NOCOLOR
+
+# How to use
+
+These scripts are designed to be included into a shell script.  
+
+There are two main different ways to do this depending on your needs:
+* [Importing from a local file](#importing-from-a-local-file-recommended)
+* [Importing directly from github](#importing-directly-from-github)
+
 
 ## Importing from a local file (recommended)
 
