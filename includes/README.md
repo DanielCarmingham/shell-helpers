@@ -2,6 +2,28 @@
 
 These files are designed to be included into a shell script directly from github.
 
+## Importing from a local file (recommended)
+
+Download the file via curl:
+
+```bash
+    curl -sO https://raw.githubusercontent.com/DanielCarmingham/shell-helpers/main/includes/colors.sh
+```
+
+...or, download via wget:
+
+```bash
+    wget -q https://raw.githubusercontent.com/DanielCarmingham/shell-helpers/main/includes/colors.sh
+```
+
+Then import the file:
+
+```bash
+    source colors.sh
+```
+
+## Importing directly from github
+
 This method works in zsh (and possibly non-macos bash) via piping source <- curl:
 
 ```bash
