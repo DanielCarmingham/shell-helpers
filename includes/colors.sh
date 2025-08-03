@@ -21,3 +21,6 @@ export LIGHTBLUE='\033[1;34m'
 export LIGHTPURPLE='\033[1;35m'
 export LIGHTCYAN='\033[1;36m'
 export WHITE='\033[1;37m'
+
+# aliases
+export NC=$NOCOLOR
